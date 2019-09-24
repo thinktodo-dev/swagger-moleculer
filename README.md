@@ -8,7 +8,7 @@ This is a swagger plugin for [moleculer-web](https://github.com/moleculerjs/mole
 ## Install
 
 ```bash
-npm install moleculer-web-swagger --save
+npm install thinktodo-swagger-moleculer --save
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ npm install moleculer-web-swagger --save
 Add a service `swagger.service.js`, here is all options.
 
 ```javascript
-const SwaggerService = require("moleculer-web-swagger");
+const SwaggerService = require("thinktodo-swagger-moleculer");
 module.exports = {
 	// Service name
 	mixins: [SwaggerService],
@@ -33,8 +33,8 @@ module.exports = {
 				title: "Saigonrealty's APIs Document",
 				termsOfService: "",
 				contact: {
-					name: "phantomk",
-					url: "https://github.com/phantomk",
+					name: "thinktodo",
+					url: "https://github.com/thinktodo-dev",
 					email: "phantomk94@gmail.com"
 				},
 				license: {
