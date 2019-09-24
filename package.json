@@ -1,6 +1,6 @@
 {
   "name": "thinktodo-swagger-moleculer",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Unofficial Swagger service for Moleculer-web",
   "main": "index.js",
   "scripts": {

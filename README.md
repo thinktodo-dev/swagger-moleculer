@@ -1,4 +1,4 @@
-# moleculer-web-swagger
+# thinktodo-swagger-moleculer
 
 ![npm-veriosn](https://img.shields.io/npm/v/moleculer-web-swagger.svg)
 ![npm-dt](https://img.shields.io/npm/dt/moleculer-web-swagger.svg)
