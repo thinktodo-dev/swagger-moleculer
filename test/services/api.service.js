@@ -15,12 +15,22 @@ module.exports = {
 			{
 				path: "/charge",
 				aliases: {
-					"POST create": async function(req, res) {},
-					"POST create2"(req, res) {
-						// ...
-					},
-					"GET retrieve": async function(req, res) {
-						{}
+					"POST create": {
+						swaggerDoc: {
+							description: "Load products by filter",
+							tags: ["Products"],
+							// parameters: [
+							// 	{
+							// 		in: "body",
+							// 		name: "data",
+							// 		type: "Object",
+							// 		description: "Product filter",
+							// 		required: true,
+							// 		schema: {}
+							// 	}
+							// ]
+						},
+						actions: "greeter.hello"
 					}
 				},
 				bodyParsers: {

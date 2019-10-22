@@ -157,7 +157,7 @@ module.exports = {
 			  (route.path.endsWith("/") ? "" : "/")}${matchPath}`
 		  );
 		  let swaggerPath = {
-			[`${route.path +
+			[`${method} ${route.path +
 			  (route.path.endsWith("/") ? "" : "/")}${matchPath}`]: {
 			  [method.toLowerCase()]: {
 				tags: doc.tags,
@@ -188,7 +188,6 @@ module.exports = {
 		// Handle aliases
 		if (opts.aliases && Object.keys(opts.aliases).length > 0) {
 		  route.aliases = [];
-		  // console.log( Object.values(opts.aliases));
 		  Object.keys(opts.aliases).map((matchPath, index) => {
 			if (Object.values(opts.aliases)[index].swaggerDoc) {
 			  Object.assign(
